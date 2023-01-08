@@ -1,0 +1,60 @@
+.main {
+
+
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 550px;
+    border: 1px solid white;
+    background-color: rgb(79, 151, 163, 0.2);
+    margin-top: 20px;
+
+
+}
+
+
+.submitbtn {
+    font-size: medium;
+    margin-top: 20px;
+    padding: 10px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.submitbtn:hover {
+    cursor: pointer;
+    background-color: #003366;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(213, 183, 235);
+}
+
+.complain {
+
+    height: 250px;
+    width: 500px;
+    font-size: large;
+
+
+
+
+}
+
+.emails {
+
+
+    color: white;
+    transition: text-shadow .3s;
+}
+
+
+.emails:hover {
+
+
+    cursor: pointer;
+
+    text-shadow: 0 0 11px rgba(255, 255, 255, 0.755);
+
+}

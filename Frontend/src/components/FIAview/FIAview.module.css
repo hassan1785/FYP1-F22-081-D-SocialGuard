@@ -1,0 +1,64 @@
+.h1 {
+
+    color: whitesmoke;
+    text-align: center;
+}
+
+.divcase {
+
+    padding-top: 30px;
+    height: 500px;
+    width: 1300px;
+    margin-left: 100px;
+
+}
+
+.headtable {
+
+
+    margin-left: 300px;
+
+    counter-reset: serial;
+    border-collapse: collapse;
+
+}
+
+.table,
+.serialnum {
+
+
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+
+
+.serialnum::before {
+
+    counter-increment: serial;
+    content: counter(serial);
+}
+
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+.headertable {
+    background-color: #0074B7
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+
+    text-decoration: underline;
+    text-shadow: 0 0 11px rgba(255, 255, 255, 0.755);
+}

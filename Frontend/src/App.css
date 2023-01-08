@@ -1,0 +1,45 @@
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 30px;
+  background-color: #003153;
+  width: 1500px;
+  height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar ul li a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+  text-shadow: 1px 1px grey;
+}
+
+
+#footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: none;
+  /* background-image: linear-gradient(to bottom, #CF91FF, #5782F5); */
+
+
+}
+
+
+
+#p1 {
+
+
+  text-align: center;
+  color: #008E97;
+
+
+}

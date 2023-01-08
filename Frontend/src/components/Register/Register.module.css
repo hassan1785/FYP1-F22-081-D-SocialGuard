@@ -1,0 +1,106 @@
+.LoginH1 {
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+
+
+}
+
+
+.headdiv {
+
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+
+    display: flex;
+
+    justify-content: flex-start;
+    text-align: center;
+
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    background-color: rgb(79, 151, 163, 0.2);
+    width: 600px;
+
+
+
+
+}
+
+
+
+.labeltag {
+
+
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+    width: 100px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.Register {
+
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 1px solid#8DA399;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: medium;
+
+    position: relative;
+    bottom: 350px;
+    left: 850px;
+    /* position: absolute;
+    top: 370px;
+    left: 850px; */
+
+
+}
+
+.Register:hover {
+
+    background-color: #003366;
+
+    cursor: pointer;
+
+}
+
+.login input {
+    width: 200px;
+    height: 40px;
+
+    margin: 6px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-size: medium;
+    display: inline-block;
+
+
+
+}
+
+
+
+select {
+    width: 200px;
+    height: 40px;
+    font-size: medium;
+
+}
+
+.errorp {
+
+    margin-top: 0px;
+    margin-left: 35px;
+
+}

@@ -1,0 +1,91 @@
+.imagediv {
+
+    display: block;
+    margin-left: 0px;
+
+}
+
+.logo {
+
+    /* position: absolute;
+    top: -40px;
+    left: 30px;
+    right: 40px; */
+    height: 550px;
+    width: 500px;
+    float: left;
+
+
+
+
+}
+
+
+.Heading {
+    position: absolute;
+    left: 530px;
+    top: 250px;
+    font-size: 80px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: none;
+    /* background-image: linear-gradient(to bottom, #CF91FF, #5782F5); */
+
+
+/*}*/
+
+
+/* 
+.p1 {
+
+
+    text-align: center;
+
+
+} */
+
+
+.regbtn {
+
+    color: white;
+
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 710px;
+    top: 450px;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.regbtn:hover {
+
+
+    background-color: #003366;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(213, 183, 235);
+    transform: translateY(-0.7em);
+
+    cursor: pointer;
+
+}

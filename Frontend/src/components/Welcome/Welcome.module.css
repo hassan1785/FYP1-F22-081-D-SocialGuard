@@ -1,0 +1,74 @@
+.h1 {
+
+
+    font-weight: 800px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #BCD4E6, #00308F, white);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-repeat: no-repeat;
+
+    background-size: 80%;
+    animation: shine 8s linear infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+    position: relative;
+    animation-delay: -2s;
+
+}
+
+@keyframes shine {
+    0% {
+        background-position-x: -500%;
+    }
+
+    100% {
+        background-position-x: 500%;
+    }
+}
+
+
+
+
+
+.ul {
+
+    display: block;
+
+    width: 220px;
+    height: 642px;
+    margin: 0;
+    padding: 0;
+    background-color: #003153;
+    float: left;
+
+
+}
+
+.links a {
+
+    display: block;
+
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid;
+
+
+
+}
+
+.links a:hover {
+
+    background-color: #04478a;
+    color: white;
+}

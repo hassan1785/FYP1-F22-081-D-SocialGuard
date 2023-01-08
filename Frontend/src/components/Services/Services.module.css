@@ -1,0 +1,66 @@
+.Headdiv {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 2px;
+
+
+
+}
+
+.H1 {
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    color: #003153;
+
+}
+
+.H2 {
+    font-size: large;
+    text-align: center;
+    margin-top: 80px;
+    color: #003153;
+}
+
+
+.H3 {
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    color: #003153;
+}
+
+
+.H4 {
+    font-size: large;
+    text-align: center;
+    margin-top: 55px;
+    color: #003153;
+}
+
+.p1 {
+
+    margin-left: 30px;
+}
+
+.S1 {
+    border: 1px solid white;
+    border-radius: 4%;
+    /* background-color: rgb(79, 151, 163, 0.5); */
+    margin-top: 20px;
+    background-color: white;
+    width: 700px;
+
+}
+
+.S2 {
+    border: 1px solid white;
+    border-radius: 4%;
+    margin-top: 20px;
+    width: 700px;
+
+}

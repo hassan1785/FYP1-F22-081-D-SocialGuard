@@ -1,0 +1,30 @@
+.maindiv {
+
+    padding-left: 40px;
+
+    color: whitesmoke
+}
+
+
+.img {
+
+    width: 300px;
+    height: 400px;
+    display: none;
+
+}
+
+.btn {
+
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px white;
+}
